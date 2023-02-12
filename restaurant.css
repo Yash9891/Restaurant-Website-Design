@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(asset/restu.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+  }
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 63px;
+    color: rgb(214, 195, 66);
+
+  }
+  button {
+    background-color:rgb(185, 93, 23);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    border-radius: 10px;
+    font-weight:700;
+    font-size: 15px;
+    width:fit-content;
+    line-height: 20px;
+  }
+  .hero{
+   max-width: 1154px;
+   margin: auto;
+   text-align: center;
+   margin-top: 119px;
+  }
+  .heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    color: rgb(238, 192, 65);
+    line-height: 114px;
+    font-weight: 900;
+  }
+  .retro{
+    color: rgb(227, 106, 35);
+    margin-right: 200px;
+    font-size: 40px;
+    font-weight: 900;
+  }
